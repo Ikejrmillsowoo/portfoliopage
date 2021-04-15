@@ -424,7 +424,7 @@ p{
     height: 300px;
     overflow: hidden;
     position: relative;
-    opacity: .8;
+    opacity: 1;
 }
 
 /* #projects .project-img:after {
