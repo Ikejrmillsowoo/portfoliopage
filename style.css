@@ -460,7 +460,7 @@ label {
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 100px 0 0 0;
 }
 
 #projects .projects-header h1 {
