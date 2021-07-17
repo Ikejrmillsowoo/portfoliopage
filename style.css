@@ -317,7 +317,7 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30px;
+    margin: 12px;
 }
 
 #services .service-top img {
@@ -428,6 +428,14 @@ p{
 .innerNodeJs {
     width: 60%;
     background-color: red;
+    height: 100%;
+    animation-name: start;
+    animation-duration: 2s;
+}
+
+.innerReactN {
+    width: 50%;
+    background-color: purple;
     height: 100%;
     animation-name: start;
     animation-duration: 2s;
