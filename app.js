@@ -13,7 +13,7 @@ hamburger.addEventListener("click", () => {
   mobile_menu.classList.toggle("active");
 });
 
-header.addEventListener("scroll", () => {
+window.addEventListener("scroll", () => {
   let scroll_position = window.scrollY;
   if (scroll_position > 250) {
     header.style.backgroundColor = "rgba(31, 30, 30, 0.90)";

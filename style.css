@@ -85,7 +85,8 @@ p{
 /*   */
 /* Hero Section */
 #hero {
-    background-image: url(./images/IMG_0823.png.jpg);
+    background-image: url(./images/IMG_9600.jpg);
+    background-blend-mode: lighten;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -120,7 +121,7 @@ p{
 }
 #header .header {
     min-height: 8vh;
-    background-color: rgba(31, 30, 30, 0.24);
+    background-color: rgba(102, 102, 105, 0.243);
     transition: .3s ease background-color;
 }
 #header .nav-bar {
@@ -180,7 +181,9 @@ p{
     letter-spacing: initial;
 }
 #header .nav-bar ul li:hover a{
-    color: #266EFF;
+    color: white;
+    background-color: #266EFF;
+    
 }
 
 #header .hamburger {
