@@ -575,6 +575,13 @@ label {
 #about .col-right p {
     margin-bottom: 20px;
 }
+
+#about .col-right a {
+    text-decoration: none;
+    color: #000;
+    font-style: italic;
+}
+
 #about .col-right .cta {
     color: black;
     margin-bottom: 50px;
